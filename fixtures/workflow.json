@@ -1,0 +1,16 @@
+{
+  "same_time_priority": [
+    "received",
+    "test_started",
+    "test_passed",
+    "test_failed",
+    "rework_requested",
+    "cancelled"
+  ],
+  "as_of_seconds": [
+    10,
+    12
+  ],
+  "state_durations": "half_open_between_events",
+  "illegal_transition": "block_case_preserve_evidence"
+}

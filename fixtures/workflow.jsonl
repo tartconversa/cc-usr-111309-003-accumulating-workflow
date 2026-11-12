@@ -1,0 +1,6 @@
+{"case_id": "s1", "event_id": "e0", "event_seconds": 0, "type": "received", "revision": 1, "withdrawn": false}
+{"case_id": "s1", "event_id": "e1", "event_seconds": 2, "type": "test_started", "revision": 1, "withdrawn": false}
+{"case_id": "s1", "event_id": "e2", "event_seconds": 5, "type": "test_failed", "revision": 1, "withdrawn": false}
+{"case_id": "s1", "event_id": "e3", "event_seconds": 6, "type": "rework_requested", "revision": 1, "withdrawn": false}
+{"case_id": "s1", "event_id": "e4", "event_seconds": 8, "type": "test_started", "revision": 1, "withdrawn": false}
+{"case_id": "s1", "event_id": "e5", "event_seconds": 12, "type": "test_passed", "revision": 1, "withdrawn": false}

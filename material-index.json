@@ -1,0 +1,12 @@
+[
+  {
+    "path": "fixtures/workflow.json",
+    "sha256": "6d56afe93cdae7ad36a7388c1f9ed7927a3cb67449ef34d0f40b9ac02d0746de",
+    "size_bytes": 294
+  },
+  {
+    "path": "fixtures/workflow.jsonl",
+    "sha256": "5c39c00aaba4cbba61ec6d9bc1602a6ced001b434f5e41b6573775529ade7ffe",
+    "size_bytes": 689
+  }
+]
