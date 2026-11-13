@@ -1,0 +1,4 @@
+{"as_of_seconds": 10, "attempt": 1, "case_id": "s1", "dwelled_seconds": null, "end_event": "e2", "ended_at": 5, "open": false, "outcome": "failed", "run_seconds": 3, "start_event": "e1", "started_at": 2}
+{"as_of_seconds": 10, "attempt": 2, "case_id": "s1", "dwelled_seconds": 2, "end_event": null, "ended_at": null, "open": true, "outcome": null, "run_seconds": null, "start_event": "e4", "started_at": 8}
+{"as_of_seconds": 12, "attempt": 1, "case_id": "s1", "dwelled_seconds": null, "end_event": "e2", "ended_at": 5, "open": false, "outcome": "failed", "run_seconds": 3, "start_event": "e1", "started_at": 2}
+{"as_of_seconds": 12, "attempt": 2, "case_id": "s1", "dwelled_seconds": null, "end_event": "e5", "ended_at": 12, "open": false, "outcome": "passed", "run_seconds": 4, "start_event": "e4", "started_at": 8}

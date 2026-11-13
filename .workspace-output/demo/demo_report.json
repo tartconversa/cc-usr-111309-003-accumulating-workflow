@@ -1,0 +1,562 @@
+{
+  "as_of_open_interval": {
+    "attempt2": {
+      "as_of_seconds": 10,
+      "attempt": 2,
+      "case_id": "s1",
+      "dwelled_seconds": 2,
+      "end_event": null,
+      "ended_at": null,
+      "open": true,
+      "outcome": null,
+      "run_seconds": null,
+      "start_event": "e4",
+      "started_at": 8
+    },
+    "check": {
+      "attempt2_open_dwelled_2": true,
+      "flow_10_conserved": true,
+      "run_completed_3": true,
+      "run_open_2": true
+    },
+    "ok": true,
+    "snapshot": {
+      "as_of_seconds": 10,
+      "attempts": 2,
+      "attempts_open": 1,
+      "block_event": null,
+      "blocked": false,
+      "cancelled_at": null,
+      "case_id": "s1",
+      "conserved": true,
+      "first_test_started_at": 2,
+      "flow_seconds": 10,
+      "held_events": 0,
+      "input_version": "4327774f06b5a9dc",
+      "last_test_started_at": 8,
+      "non_run_seconds_completed": 5,
+      "non_run_seconds_open": 0,
+      "open_phase": "running",
+      "open_phase_seconds": 2,
+      "open_phase_since": 8,
+      "passed_at": null,
+      "phase": "running",
+      "quarantined_events": 0,
+      "received_at": 0,
+      "rework_seconds_completed": 2,
+      "rework_seconds_open": 0,
+      "run_seconds_completed": 3,
+      "run_seconds_open": 2,
+      "terminal": false,
+      "wait_seconds_completed": 3,
+      "wait_seconds_open": 0
+    }
+  },
+  "baseline_conservation": {
+    "attempts": [
+      {
+        "as_of_seconds": 12,
+        "attempt": 1,
+        "case_id": "s1",
+        "dwelled_seconds": null,
+        "end_event": "e2",
+        "ended_at": 5,
+        "open": false,
+        "outcome": "failed",
+        "run_seconds": 3,
+        "start_event": "e1",
+        "started_at": 2
+      },
+      {
+        "as_of_seconds": 12,
+        "attempt": 2,
+        "case_id": "s1",
+        "dwelled_seconds": null,
+        "end_event": "e5",
+        "ended_at": 12,
+        "open": false,
+        "outcome": "passed",
+        "run_seconds": 4,
+        "start_event": "e4",
+        "started_at": 8
+      }
+    ],
+    "check": {
+      "flow_12_conserved": true,
+      "non_run_completed_5": true,
+      "run_completed_7": true
+    },
+    "ok": true,
+    "snapshot": {
+      "as_of_seconds": 12,
+      "attempts": 2,
+      "attempts_open": 0,
+      "block_event": null,
+      "blocked": false,
+      "cancelled_at": null,
+      "case_id": "s1",
+      "conserved": true,
+      "first_test_started_at": 2,
+      "flow_seconds": 12,
+      "held_events": 0,
+      "input_version": "4327774f06b5a9dc",
+      "last_test_started_at": 8,
+      "non_run_seconds_completed": 5,
+      "non_run_seconds_open": 0,
+      "open_phase": null,
+      "open_phase_seconds": 0,
+      "open_phase_since": null,
+      "passed_at": 12,
+      "phase": "passed",
+      "quarantined_events": 0,
+      "received_at": 0,
+      "rework_seconds_completed": 2,
+      "rework_seconds_open": 0,
+      "run_seconds_completed": 7,
+      "run_seconds_open": 0,
+      "terminal": true,
+      "wait_seconds_completed": 3,
+      "wait_seconds_open": 0
+    }
+  },
+  "cancel": {
+    "attempt_s3": {
+      "as_of_seconds": 9,
+      "attempt": 1,
+      "case_id": "s3",
+      "dwelled_seconds": null,
+      "end_event": "c2",
+      "ended_at": 7,
+      "open": false,
+      "outcome": "cancelled",
+      "run_seconds": 5,
+      "start_event": "c1",
+      "started_at": 2
+    },
+    "check": {
+      "awaiting_cancelled": true,
+      "cancel_after_terminal_blocked": true,
+      "running_cancelled": true
+    },
+    "ok": true,
+    "snapshots": {
+      "s3": {
+        "as_of_seconds": 9,
+        "attempts": 1,
+        "attempts_open": 0,
+        "block_event": null,
+        "blocked": false,
+        "cancelled_at": 7,
+        "case_id": "s3",
+        "conserved": true,
+        "first_test_started_at": 2,
+        "flow_seconds": 7,
+        "held_events": 0,
+        "input_version": "9a0af8cbbbd56bc3",
+        "last_test_started_at": 2,
+        "non_run_seconds_completed": 2,
+        "non_run_seconds_open": 0,
+        "open_phase": null,
+        "open_phase_seconds": 0,
+        "open_phase_since": null,
+        "passed_at": null,
+        "phase": "cancelled",
+        "quarantined_events": 0,
+        "received_at": 0,
+        "rework_seconds_completed": 0,
+        "rework_seconds_open": 0,
+        "run_seconds_completed": 5,
+        "run_seconds_open": 0,
+        "terminal": true,
+        "wait_seconds_completed": 2,
+        "wait_seconds_open": 0
+      },
+      "s4": {
+        "as_of_seconds": 9,
+        "attempts": 0,
+        "attempts_open": 0,
+        "block_event": null,
+        "blocked": false,
+        "cancelled_at": 3,
+        "case_id": "s4",
+        "conserved": true,
+        "first_test_started_at": null,
+        "flow_seconds": 3,
+        "held_events": 0,
+        "input_version": "9a0af8cbbbd56bc3",
+        "last_test_started_at": null,
+        "non_run_seconds_completed": 3,
+        "non_run_seconds_open": 0,
+        "open_phase": null,
+        "open_phase_seconds": 0,
+        "open_phase_since": null,
+        "passed_at": null,
+        "phase": "cancelled",
+        "quarantined_events": 0,
+        "received_at": 0,
+        "rework_seconds_completed": 0,
+        "rework_seconds_open": 0,
+        "run_seconds_completed": 0,
+        "run_seconds_open": 0,
+        "terminal": true,
+        "wait_seconds_completed": 3,
+        "wait_seconds_open": 0
+      },
+      "s5": {
+        "as_of_seconds": 9,
+        "attempts": 1,
+        "attempts_open": 0,
+        "block_event": "f3",
+        "blocked": true,
+        "cancelled_at": null,
+        "case_id": "s5",
+        "conserved": true,
+        "first_test_started_at": 2,
+        "flow_seconds": 6,
+        "held_events": 0,
+        "input_version": "9a0af8cbbbd56bc3",
+        "last_test_started_at": 2,
+        "non_run_seconds_completed": 2,
+        "non_run_seconds_open": 0,
+        "open_phase": null,
+        "open_phase_seconds": 0,
+        "open_phase_since": null,
+        "passed_at": 6,
+        "phase": "passed",
+        "quarantined_events": 1,
+        "received_at": 0,
+        "rework_seconds_completed": 0,
+        "rework_seconds_open": 0,
+        "run_seconds_completed": 4,
+        "run_seconds_open": 0,
+        "terminal": true,
+        "wait_seconds_completed": 2,
+        "wait_seconds_open": 0
+      }
+    }
+  },
+  "decompose_query": {
+    "check": {
+      "full_totals": true,
+      "windowed_open_run_2": true
+    },
+    "ok": true,
+    "window_0_10": {
+      "segments": [
+        {
+          "attempt": null,
+          "end_seconds": 2,
+          "open": false,
+          "phase": "awaiting_test",
+          "rollup": "wait",
+          "seconds": 2,
+          "start_seconds": 0
+        },
+        {
+          "attempt": 1,
+          "end_seconds": 5,
+          "open": false,
+          "phase": "running",
+          "rollup": "run",
+          "seconds": 3,
+          "start_seconds": 2
+        },
+        {
+          "attempt": 1,
+          "end_seconds": 6,
+          "open": false,
+          "phase": "awaiting_rework",
+          "rollup": "wait",
+          "seconds": 1,
+          "start_seconds": 5
+        },
+        {
+          "attempt": 1,
+          "end_seconds": 8,
+          "open": false,
+          "phase": "rework",
+          "rollup": "rework",
+          "seconds": 2,
+          "start_seconds": 6
+        },
+        {
+          "attempt": 2,
+          "end_seconds": 10,
+          "open": true,
+          "phase": "running",
+          "rollup": "run",
+          "seconds": 2,
+          "start_seconds": 8
+        }
+      ],
+      "totals": {
+        "rework_completed": 2,
+        "run_completed": 3,
+        "run_open": 2,
+        "wait_completed": 3
+      },
+      "window": [
+        0,
+        10
+      ]
+    },
+    "window_0_12": {
+      "segments": [
+        {
+          "attempt": null,
+          "end_seconds": 2,
+          "open": false,
+          "phase": "awaiting_test",
+          "rollup": "wait",
+          "seconds": 2,
+          "start_seconds": 0
+        },
+        {
+          "attempt": 1,
+          "end_seconds": 5,
+          "open": false,
+          "phase": "running",
+          "rollup": "run",
+          "seconds": 3,
+          "start_seconds": 2
+        },
+        {
+          "attempt": 1,
+          "end_seconds": 6,
+          "open": false,
+          "phase": "awaiting_rework",
+          "rollup": "wait",
+          "seconds": 1,
+          "start_seconds": 5
+        },
+        {
+          "attempt": 1,
+          "end_seconds": 8,
+          "open": false,
+          "phase": "rework",
+          "rollup": "rework",
+          "seconds": 2,
+          "start_seconds": 6
+        },
+        {
+          "attempt": 2,
+          "end_seconds": 12,
+          "open": false,
+          "phase": "running",
+          "rollup": "run",
+          "seconds": 4,
+          "start_seconds": 8
+        }
+      ],
+      "totals": {
+        "rework_completed": 2,
+        "run_completed": 7,
+        "wait_completed": 3
+      },
+      "window": [
+        0,
+        12
+      ]
+    }
+  },
+  "process_recovery": {
+    "check": {
+      "partial_was_running": true,
+      "resumed_equals_full": true
+    },
+    "ok": true,
+    "partial_after_2_events": {
+      "as_of_seconds": 12.0,
+      "attempts": 1,
+      "attempts_open": 1,
+      "block_event": null,
+      "blocked": false,
+      "cancelled_at": null,
+      "case_id": "s1",
+      "conserved": true,
+      "first_test_started_at": 2,
+      "flow_seconds": 12.0,
+      "held_events": 0,
+      "input_version": "4327774f06b5a9dc",
+      "last_test_started_at": 2,
+      "non_run_seconds_completed": 2,
+      "non_run_seconds_open": 0,
+      "open_phase": "running",
+      "open_phase_seconds": 10.0,
+      "open_phase_since": 2,
+      "passed_at": null,
+      "phase": "running",
+      "quarantined_events": 0,
+      "received_at": 0,
+      "rework_seconds_completed": 0,
+      "rework_seconds_open": 0,
+      "run_seconds_completed": 0,
+      "run_seconds_open": 10.0,
+      "terminal": false,
+      "wait_seconds_completed": 2,
+      "wait_seconds_open": 0
+    }
+  },
+  "same_timestamp": {
+    "check": {
+      "fail_before_rework": true,
+      "not_blocked": true
+    },
+    "ok": true,
+    "same_second_order": [
+      "test_failed",
+      "rework_requested"
+    ],
+    "snapshot": {
+      "as_of_seconds": 11,
+      "attempts": 2,
+      "attempts_open": 0,
+      "block_event": null,
+      "blocked": false,
+      "cancelled_at": null,
+      "case_id": "s2",
+      "conserved": true,
+      "first_test_started_at": 2,
+      "flow_seconds": 11,
+      "held_events": 0,
+      "input_version": "a6f4944330911182",
+      "last_test_started_at": 9,
+      "non_run_seconds_completed": 6,
+      "non_run_seconds_open": 0,
+      "open_phase": null,
+      "open_phase_seconds": 0,
+      "open_phase_since": null,
+      "passed_at": 11,
+      "phase": "passed",
+      "quarantined_events": 0,
+      "received_at": 0,
+      "rework_seconds_completed": 4,
+      "rework_seconds_open": 0,
+      "run_seconds_completed": 5,
+      "run_seconds_open": 0,
+      "terminal": true,
+      "wait_seconds_completed": 2,
+      "wait_seconds_open": 0
+    },
+    "zero_length_interval": {
+      "as_of_seconds": 11,
+      "attempt": 1,
+      "case_id": "s2",
+      "close_event": "a2",
+      "end_seconds": 5,
+      "open": false,
+      "open_event": "a3",
+      "phase": "awaiting_rework",
+      "rollup": "wait",
+      "seconds": 0,
+      "start_seconds": 5
+    }
+  },
+  "withdraw_and_correct": {
+    "blocked_snapshot": {
+      "as_of_seconds": 12,
+      "attempts": 1,
+      "attempts_open": 1,
+      "block_event": "e3",
+      "blocked": true,
+      "cancelled_at": null,
+      "case_id": "s1",
+      "conserved": true,
+      "first_test_started_at": 2,
+      "flow_seconds": 12,
+      "held_events": 2,
+      "input_version": "f60cb8c621d2678a",
+      "last_test_started_at": 2,
+      "non_run_seconds_completed": 2,
+      "non_run_seconds_open": 0,
+      "open_phase": "running",
+      "open_phase_seconds": 10,
+      "open_phase_since": 2,
+      "passed_at": null,
+      "phase": "running",
+      "quarantined_events": 1,
+      "received_at": 0,
+      "rework_seconds_completed": 0,
+      "rework_seconds_open": 0,
+      "run_seconds_completed": 0,
+      "run_seconds_open": 10,
+      "terminal": false,
+      "wait_seconds_completed": 2,
+      "wait_seconds_open": 0
+    },
+    "check": {
+      "blocked_at_e3": true,
+      "held_not_applied": true,
+      "rebuild_unblocks": true
+    },
+    "ok": true,
+    "quarantine": [
+      {
+        "as_of_seconds": 12,
+        "case_id": "s1",
+        "event_id": "e3",
+        "event_seconds": 6,
+        "expected": [
+          "cancelled",
+          "test_failed",
+          "test_passed"
+        ],
+        "phase_at_block": "running",
+        "reason": "illegal_transition",
+        "revision": 1,
+        "type": "rework_requested"
+      },
+      {
+        "as_of_seconds": 12,
+        "blocked_by": "e3",
+        "case_id": "s1",
+        "event_id": "e4",
+        "event_seconds": 8,
+        "reason": "held_after_block",
+        "revision": 1,
+        "type": "test_started"
+      },
+      {
+        "as_of_seconds": 12,
+        "blocked_by": "e3",
+        "case_id": "s1",
+        "event_id": "e5",
+        "event_seconds": 12,
+        "reason": "held_after_block",
+        "revision": 1,
+        "type": "test_passed"
+      }
+    ],
+    "rebuilt_snapshot": {
+      "as_of_seconds": 12,
+      "attempts": 2,
+      "attempts_open": 0,
+      "block_event": null,
+      "blocked": false,
+      "cancelled_at": null,
+      "case_id": "s1",
+      "conserved": true,
+      "first_test_started_at": 2,
+      "flow_seconds": 12,
+      "held_events": 0,
+      "input_version": "c60bd08b5d1e8b07",
+      "last_test_started_at": 8,
+      "non_run_seconds_completed": 5,
+      "non_run_seconds_open": 0,
+      "open_phase": null,
+      "open_phase_seconds": 0,
+      "open_phase_since": null,
+      "passed_at": 12,
+      "phase": "passed",
+      "quarantined_events": 0,
+      "received_at": 0,
+      "rework_seconds_completed": 2,
+      "rework_seconds_open": 0,
+      "run_seconds_completed": 7,
+      "run_seconds_open": 0,
+      "terminal": true,
+      "wait_seconds_completed": 3,
+      "wait_seconds_open": 0
+    }
+  }
+}

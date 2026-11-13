@@ -1,0 +1,15 @@
+{
+  "applied_events": {
+    "10": 5,
+    "12": 6
+  },
+  "as_of_seconds": [
+    10,
+    12
+  ],
+  "input_version": "4327774f06b5a9dc",
+  "withdrawn_events": {
+    "10": [],
+    "12": []
+  }
+}
